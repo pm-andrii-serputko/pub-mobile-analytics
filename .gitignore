@@ -5,3 +5,7 @@ bower_components
 .tmp
 .sass-cache
 coverage
+report
+platforms
+plugins
+www
