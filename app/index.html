@@ -1,0 +1,40 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>pub-mobile-analytics</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <!-- build:css styles/app.css-->
+        <!-- injector:css -->
+
+        <!-- endinjector -->
+        <!-- endbuild -->
+    </head>
+    <body>
+
+        <div data-ng-view></div>
+        <h1>Hi There!!!</h1>
+        <p>This is mobile application</p>
+        <!-- build:js scripts/lib.js-->
+        <!-- bower:js -->
+        <script src="../bower_components/angular/angular.js"></script>
+        <script src="../bower_components/angular-route/angular-route.js"></script>
+        <script src="../bower_components/angular-resource/angular-resource.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+        <script src="cordova.js"></script>
+        <!-- build:js scripts/app.js-->
+        <!-- injector:js -->
+        <script src="/app.module.js"></script>
+        <script src="/app.config.js"></script>
+        <!-- endinjector -->
+
+        <!-- injector:templates:js -->
+        <!-- endinjector -->
+
+        <!-- endbuild -->
+
+    </body>
+</html>
